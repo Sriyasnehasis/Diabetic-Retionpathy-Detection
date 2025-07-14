@@ -8,6 +8,16 @@ A powerful and user-friendly **web application** that detects the severity of **
 
 Diabetic retinopathy (DR) is a complication of diabetes that affects the eyes. Early detection through retinal scans can prevent severe vision loss. This app helps classify DR into 5 stages using AI.
 
+## 📁 Project Structure
+
+📁 Diabetic-Retionpathy-Detection/
+├── app_n.py # Main Streamlit app
+├── DR_detection_model.h5 # Pretrained model (download separately)
+├── best_model.h5 # Optional legacy model
+├── README.md # Project description
+├── Frontpage.jpg # App frontpage screenshot
+├── Resultpage.jpg # App result screenshot
+
 ## 🚀 Features
 
 - Upload **single** or **multiple** retinal images
@@ -69,25 +79,6 @@ pip install -r requirements.txt
 
 streamlit run app_n.py
 
-## 📁 Project Structure
+## 📜 License
 
-```plaintext
-📁 Diabetic-Retionpathy-Detection/
-├── app_n.py                  # Main Streamlit app
-├── DR_detection_model.h5     # Pretrained model (download separately)
-├── best_model.h5             # Optional legacy model
-├── README.md                 # Project description
-├── Frontpage.jpg             # App frontpage screenshot
-├── Resultpage.jpg            # App result screenshot
-
-
-### 📈 Example Output
-
-After uploading an image:
-
-✔️ Prediction: Moderate DR (85.2% confidence)
-
-📊 Bar chart of class probabilities
-
-🔥 Grad-CAM visualization
-```
+This project is licensed under the [MIT License](LICENSE).
