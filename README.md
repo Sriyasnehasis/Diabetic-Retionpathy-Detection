@@ -6,8 +6,8 @@ A powerful and user-friendly **web application** that detects the severity of **
 
 ## 📸 Screenshot
 
-![App frontpage](./Frontpage.png)
-![App resultpage](./Resultpage.png)
+![App frontpage](./Frontpage.jpg)
+![App resultpage](./Resultpage.jpg)
 
 ## 🩺 What is Diabetic Retinopathy?
 
