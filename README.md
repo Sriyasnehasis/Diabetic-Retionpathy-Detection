@@ -10,13 +10,14 @@ Diabetic retinopathy (DR) is a complication of diabetes that affects the eyes. E
 
 ## 📁 Project Structure
 
-📁 Diabetic-Retionpathy-Detection/
+Diabetic-Retionpathy-Detection/
 ├── app_n.py # Main Streamlit app
 ├── DR_detection_model.h5 # Pretrained model (download separately)
 ├── best_model.h5 # Optional legacy model
-├── README.md # Project description
 ├── Frontpage.jpg # App frontpage screenshot
 ├── Resultpage.jpg # App result screenshot
+├── README.md # Project description
+├── LICENSE # MIT License
 
 ## 🚀 Features
 
