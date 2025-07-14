@@ -69,15 +69,17 @@ pip install -r requirements.txt
 
 streamlit run app_n.py
 
-### 📁 Project Structure
+## 📁 Project Structure
 
+```plaintext
 📁 Diabetic-Retionpathy-Detection/
-├── app_n.py # Main Streamlit app
-├── DR_detection_model.h5 # Pretrained model (download separately)
-├── best_model.h5 # Optional legacy model
-├── README.md # Project description
-├── Frontpage.jpg # App frontpage screenshot
-├── Resultpage.jpg # App result screenshot
+├── app_n.py                  # Main Streamlit app
+├── DR_detection_model.h5     # Pretrained model (download separately)
+├── best_model.h5             # Optional legacy model
+├── README.md                 # Project description
+├── Frontpage.jpg             # App frontpage screenshot
+├── Resultpage.jpg            # App result screenshot
+
 
 ### 📈 Example Output
 
@@ -88,3 +90,4 @@ After uploading an image:
 📊 Bar chart of class probabilities
 
 🔥 Grad-CAM visualization
+```
